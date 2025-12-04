@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -61,6 +60,5 @@ func part02(input string) int {
 		}
 	}
 
-	fmt.Println(arr)
 	return total
 }
